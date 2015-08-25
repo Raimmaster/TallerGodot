@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="TileSet" subresource_count="11" version="1.1" version_name="Godot Engine v1.1.stable.custom_build">
+	<ext_resource path="res://Platformer Art Complete Pack_0/Base pack/Tiles/sandLeft.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Platformer Art Complete Pack_0/Base pack/Tiles/sandMid.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Platformer Art Complete Pack_0/Base pack/Tiles/sandRight.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Platformer Art Complete Pack_0/Base pack/Tiles/brickWall.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Platformer Art Complete Pack_0/Base pack/Tiles/fence.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Platformer Art Complete Pack_0/Base pack/Tiles/fenceBroken.png" type="Texture"></ext_resource>
+	<ext_resource path="res://Platformer Art Complete Pack_0/Base pack/Tiles/signRight.png" type="Texture"></ext_resource>
+	<resource type="ConvexPolygonShape2D" path="local://4">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			-34, -35, 36, -35, 36, 35, -34, 35 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://5">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			-35, 35, -35, -35, 35, -35, 35, 35 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://3">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			-35, -35, 35, -35, 35, 35, -35, 35 </vector2_array>
+
+	</resource>
+	<main_resource>
+		<string name="0/name"> "tile1" </string>
+		<resource name="0/texture" resource_type="Texture" path="res://Platformer Art Complete Pack_0/Base pack/Tiles/sandLeft.png">  </resource>
+		<vector2 name="0/tex_offset"> 0, 0 </vector2>
+		<resource name="0/material"></resource>		<rect2 name="0/region"> 0, 0, 0, 0 </rect2>
+		<vector2 name="0/occluder_offset"> 35, 35 </vector2>
+		<resource name="0/occluder"></resource>		<vector2 name="0/navigation_offset"> 35, 35 </vector2>
+		<resource name="0/navigation"></resource>		<vector2 name="0/shape_offset"> 35, 35 </vector2>
+		<array name="0/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://4">  </resource>
+		</array>
+		<string name="1/name"> "tile2" </string>
+		<resource name="1/texture" resource_type="Texture" path="res://Platformer Art Complete Pack_0/Base pack/Tiles/sandMid.png">  </resource>
+		<vector2 name="1/tex_offset"> 0, 0 </vector2>
+		<resource name="1/material"></resource>		<rect2 name="1/region"> 0, 0, 0, 0 </rect2>
+		<vector2 name="1/occluder_offset"> 35, 35 </vector2>
+		<resource name="1/occluder"></resource>		<vector2 name="1/navigation_offset"> 35, 35 </vector2>
+		<resource name="1/navigation"></resource>		<vector2 name="1/shape_offset"> 35, 35 </vector2>
+		<array name="1/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://5">  </resource>
+		</array>
+		<string name="2/name"> "tile3" </string>
+		<resource name="2/texture" resource_type="Texture" path="res://Platformer Art Complete Pack_0/Base pack/Tiles/sandRight.png">  </resource>
+		<vector2 name="2/tex_offset"> 0, 0 </vector2>
+		<resource name="2/material"></resource>		<rect2 name="2/region"> 0, 0, 0, 0 </rect2>
+		<vector2 name="2/occluder_offset"> 35, 35 </vector2>
+		<resource name="2/occluder"></resource>		<vector2 name="2/navigation_offset"> 35, 35 </vector2>
+		<resource name="2/navigation"></resource>		<vector2 name="2/shape_offset"> 35, 35 </vector2>
+		<array name="2/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://3">  </resource>
+		</array>
+		<string name="3/name"> "tile_wall" </string>
+		<resource name="3/texture" resource_type="Texture" path="res://Platformer Art Complete Pack_0/Base pack/Tiles/brickWall.png">  </resource>
+		<vector2 name="3/tex_offset"> 0, 0 </vector2>
+		<resource name="3/material"></resource>		<rect2 name="3/region"> 0, 0, 0, 0 </rect2>
+		<vector2 name="3/occluder_offset"> 35, 35 </vector2>
+		<resource name="3/occluder"></resource>		<vector2 name="3/navigation_offset"> 35, 35 </vector2>
+		<resource name="3/navigation"></resource>		<vector2 name="3/shape_offset"> 35, 35 </vector2>
+		<array name="3/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://3">  </resource>
+		</array>
+		<string name="4/name"> "tile_fence" </string>
+		<resource name="4/texture" resource_type="Texture" path="res://Platformer Art Complete Pack_0/Base pack/Tiles/fence.png">  </resource>
+		<vector2 name="4/tex_offset"> 0, 0 </vector2>
+		<resource name="4/material"></resource>		<rect2 name="4/region"> 0, 0, 0, 0 </rect2>
+		<vector2 name="4/occluder_offset"> 35, 35 </vector2>
+		<resource name="4/occluder"></resource>		<vector2 name="4/navigation_offset"> 35, 35 </vector2>
+		<resource name="4/navigation"></resource>		<vector2 name="4/shape_offset"> 0, 0 </vector2>
+		<array name="4/shapes" len="0" shared="false">
+		</array>
+		<string name="5/name"> "tile_fence_broken" </string>
+		<resource name="5/texture" resource_type="Texture" path="res://Platformer Art Complete Pack_0/Base pack/Tiles/fenceBroken.png">  </resource>
+		<vector2 name="5/tex_offset"> 0, 0 </vector2>
+		<resource name="5/material"></resource>		<rect2 name="5/region"> 0, 0, 0, 0 </rect2>
+		<vector2 name="5/occluder_offset"> 35, 35 </vector2>
+		<resource name="5/occluder"></resource>		<vector2 name="5/navigation_offset"> 35, 35 </vector2>
+		<resource name="5/navigation"></resource>		<vector2 name="5/shape_offset"> 0, 0 </vector2>
+		<array name="5/shapes" len="0" shared="false">
+		</array>
+		<string name="6/name"> "tile_arrow" </string>
+		<resource name="6/texture" resource_type="Texture" path="res://Platformer Art Complete Pack_0/Base pack/Tiles/signRight.png">  </resource>
+		<vector2 name="6/tex_offset"> 0, 0 </vector2>
+		<resource name="6/material"></resource>		<rect2 name="6/region"> 0, 0, 0, 0 </rect2>
+		<vector2 name="6/occluder_offset"> 35, 35 </vector2>
+		<resource name="6/occluder"></resource>		<vector2 name="6/navigation_offset"> 35, 35 </vector2>
+		<resource name="6/navigation"></resource>		<vector2 name="6/shape_offset"> 0, 0 </vector2>
+		<array name="6/shapes" len="0" shared="false">
+		</array>
+
+	</main_resource>
+</resource_file>
