@@ -10,6 +10,8 @@ func _ready():
 	set_process(true)
 	
 func _integrate_forces(state):
+	var lev_vector = get_linear_velocity()
+	print(lev_vector.x, " y:", lev_vector.y) 
 	var animacion = ""
 	var new_anim = ""
 	var mover_righ = Input.is_action_pressed("move_right")

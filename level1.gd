@@ -11,6 +11,7 @@ func _ready():
 	
 	
 	
+	
 func _process(delta):
 	#var animacion = ""
 	#var mover_righ = Input.is_action_pressed("move_right")

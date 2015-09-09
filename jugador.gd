@@ -28,5 +28,6 @@ func _integrate_forces(state):
 		get_node("AnimationPlayer").play(anim)
 		
 	
-	print(self.get_pos())
+	#print(self.get_pos())
+	#print("x: ", lv.x, " y: ", lv.y)
 
